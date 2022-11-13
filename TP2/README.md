@@ -11,8 +11,8 @@
 * Elwan LEFEVRE
 
 
-# Difficulté: ..               
-* ..              
+# Difficulté:               
+* les pointeurs            
 
 # Commentaires               
 * commentaire 1               

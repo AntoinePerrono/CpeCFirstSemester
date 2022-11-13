@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define PI 3.14159
+// définition d'une constante PI
 
 // Exercice 1.2
 

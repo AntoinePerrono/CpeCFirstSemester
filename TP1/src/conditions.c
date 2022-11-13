@@ -8,10 +8,11 @@ int main() {
 
     for (int i = 0; i <=1000; i++)
     {
+        // si modulo égale à 0 alors le nombre est divisible
        if (i%a == 0 && i%b == 0)
-       {
+        {    
            printf("%i, ", i);
-       }
+        }
        
     }
     printf("\n");
@@ -25,16 +26,15 @@ int main() {
 
     while (i <= 1000)
     {
+        // si modulo égale à 0 alors le nombre est divisible
         if (i%a == 0 || i%b == 0)
-       {
+        {
            printf("%i, ", i);
-       }
+        }
 
        i++;
     }
     printf("\n");
-
-
 
     printf("\nAvec 7 ou 5 mais pas 3 et boucle while : \n");
 
@@ -46,10 +46,11 @@ int main() {
 
     while (i <= 1000)
     {
+        // si modulo égale à 0 alors le nombre est divisible
         if ((i%a == 0 || i%b == 0)&& i%c != 0)
-       {
+        {
            printf("%i, ", i);
-       }
+        }
 
        i++;
     }

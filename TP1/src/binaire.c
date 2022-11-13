@@ -12,6 +12,7 @@ int main(){
 
     input_save = input;
 
+    // conversion en binaire de l'input
     for (i = 0; input > 0; i++)
     {
         binaire[i] += input%2;

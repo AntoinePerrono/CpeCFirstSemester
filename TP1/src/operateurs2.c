@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main() {
+    // initialisation de nos variables avec une valeur par défaut.
     int num1 = 0, num2 = 0;
     char op = '+';
 
+    // reccueil des valeurs entrées par l'user
     printf("Entrer votre opérateur (+, -, *, /, %%, &, |, ~): ");
     scanf("%c", &op);
 

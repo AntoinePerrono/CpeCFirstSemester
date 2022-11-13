@@ -4,9 +4,11 @@
 
 int fibonacci_rec(int n){
     int result = 0;
+    // si n atteint 1, fin du calcul
     if(n <= 1){
         return 1;
     } else {
+        // calcul
         result = fibonacci_rec(n-1) + fibonacci_rec(n-2);
         return result;
     }

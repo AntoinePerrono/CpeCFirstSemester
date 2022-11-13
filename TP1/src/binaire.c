@@ -21,6 +21,7 @@ int main(){
 
     printf("%i en binaire correspond : ", input_save);
 
+    // parcours à l'envers du tableau pour afficher dans le bon ordre le résultat
     for (i = i-1; i >=0; i--)
     {
         printf("%d", binaire[i]);

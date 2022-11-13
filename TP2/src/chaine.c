@@ -62,11 +62,12 @@ int main() {
     int length = string_length(string);
     printf("taille: %d\n", length);
 
+    // copie de la chaine de caractere et affichage de la chaine obtenue
     string_copy(string, string_copied);
     print_string(string_copied);
 
     char string2[33] = "tete";
-    
+    //concatenation de notre chaine de caractere avec le more "tete" et affichage du résultat
     concatenate(string, string2);
     print_string(string);
 

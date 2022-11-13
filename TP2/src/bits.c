@@ -12,6 +12,7 @@ int main() {
     {
         int value = 1 << i;
 
+        // remplissage du tableau en partant de la fin 
         if (d & value)
         {
             d_bin[31-i] = 1;

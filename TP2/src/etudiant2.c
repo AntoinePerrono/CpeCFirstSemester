@@ -3,11 +3,12 @@
 
 int main() {
 
-    // Initialization de la structure type
+    // Initialization de la structure étudiant, contenant les différentes données voulu
     struct etudiant
     {
         char firstname[32];
         char lastname[32];
+        // utilisation d'une autre structure pour décrire l'adresse d'un étudiant.
         struct adresse 
         {
             char rue[32];

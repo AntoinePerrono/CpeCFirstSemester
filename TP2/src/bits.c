@@ -7,6 +7,7 @@ int main() {
     printf("Nombre: ");
     scanf("%d", &d);
 
+    //Conversion entier à binaire par décallage de bit
     for (int i = 31; i >= 0; i--)
     {
         int value = 1 << i;
@@ -19,6 +20,7 @@ int main() {
         }
     }
 
+    // vérification des bits 4 et 20
     if (d_bin[4] == 1 && d_bin[20] == 1)
         printf("1\n");
     else

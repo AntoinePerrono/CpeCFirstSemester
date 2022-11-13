@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+// function qui permet de calculer la taille d'une chaine de caractere
 int string_length(char string[32]) {
     int length = 0;
     int i = 0;
@@ -16,7 +18,7 @@ int string_length(char string[32]) {
     return length;
 }
 
-
+// function permettant de copier une chaine de caractere dans une autre.
 void string_copy(char* string, char* string_copied) {
     for (int i = 0; i < 32; i++)
     {
@@ -25,6 +27,7 @@ void string_copy(char* string, char* string_copied) {
     
 }
 
+// function permettant d'afficher facilement une chaine de caractere
 void print_string(char* string) {
     for (int i = 0; i < 32; i++)
     {
@@ -32,6 +35,7 @@ void print_string(char* string) {
     }
 }
 
+// function permettant de concatener deux chaine de caractere.
 void concatenate(char* string1, char* string2) {
     int length = string_length(string1);
     

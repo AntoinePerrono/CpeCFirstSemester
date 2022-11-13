@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Calcul de fibonacci en récursive 
+
 int fibonacci_rec(int n){
     int result = 0;
     if(n <= 1){

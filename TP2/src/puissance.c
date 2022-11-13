@@ -10,6 +10,7 @@ int main() {
 
     a = c;
 
+    //Calcul de la puissance
     for (int i = 1; i < b; i++)
     {
         c *= a;

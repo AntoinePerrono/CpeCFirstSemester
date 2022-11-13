@@ -1,6 +1,6 @@
 # Bibliothèques:               
 * stdio.h               
-* ..              
+* string.h
 
 # Références:               
 * https://stackoverflow.com/

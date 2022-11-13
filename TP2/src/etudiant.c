@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     char student[5][5][100] = {
         {"Perrono","Antoine","50 rue des charmettes, 69100, Villeurbanne","15","6"},
         {"Dupuis","Rémy","51 rue des charmettes, 69100, Villeurbanne","14","15"},
@@ -20,5 +20,6 @@ void main() {
     }
     
 
+   return 0;
 
 }

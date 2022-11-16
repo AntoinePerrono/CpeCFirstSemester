@@ -5,6 +5,8 @@
 int main() {
 
     int entier[100];
+
+    //initiation de la seed
     srand( time( NULL ) );
 
     // Génération du tableau
@@ -16,6 +18,7 @@ int main() {
     int min = entier[0];
     int max = entier[0];
 
+    // recherche sur l'ensemble du tableau
     for (int i = 0; i < 100; i++)
     {
         if (entier[i] < min)

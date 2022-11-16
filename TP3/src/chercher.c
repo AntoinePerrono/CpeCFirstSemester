@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+// Auteur : Antoine PERRONO
+
 void sequentielle(int* array, int search) {
     int i = 0;
     int find = 0;
@@ -38,6 +40,7 @@ int main() {
 
     // Exercice 3.8
 
+    // 10 phrases 
     char phrase[10][256] = {"salut oui", "enchanter", "aurevoir", "ok dac", "cpe", "irc", "tres bien", "ahh mince", "a demain", "on est content"};
 
     for (int i = 0; i < 10; i++)

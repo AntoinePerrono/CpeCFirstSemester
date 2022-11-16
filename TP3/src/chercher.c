@@ -33,5 +33,14 @@ int main() {
 
     sequentielle(entier, search);
 
+    // Exercice 3.8
+
+    char phrase[10][256] = {"salut oui", "enchanter", "aurevoir", "ok dac", "cpe", "irc", "tres bien", "ahh mince", "a demain", "on est content"};
+
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%s\n", phrase[i]);
+    }
+    
     return 0;
 }

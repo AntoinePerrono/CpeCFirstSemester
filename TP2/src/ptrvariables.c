@@ -26,19 +26,18 @@ int main() {
 
 
     //Affichage des valeurs des variables des différents types
-    printf("Type: 'char' valeur: %c / adresse: %p\n",my_char_var,&my_char_var);
-    printf("Type: 'unsigned char' valeur: %hd / adresse: %p\n",my_uchar_var,&my_uchar_var);
-    printf("Type: 'unsigned short' valeur: %hd / adresse: %p\n",my_short_var,&my_short_var);
-    printf("Type: 'short' valeur: %hd / adresse: %p\n",my_ushort_var,&my_ushort_var);
-    printf("Type: 'int' valeur: %i / adresse: %p\n",my_int_var,&my_int_var);
-    printf("Type: 'unsigned int' valeur: %i / adresse: %p\n",my_uint_var,&my_uint_var);
-    printf("Type: 'long int' valeur: %li / adresse: %p\n",my_long_var,&my_long_var);
-    printf("Type: 'unsigned long int' valeur: %li / adresse: %p\n",my_ulong_var,&my_ulong_var);
-    printf("Type: 'long long int' valeur: %lli / adresse: %p\n",my_llong_var,&my_llong_var);
-    printf("Type: unsigned long long int' valeur: %lli / adresse: %p\n",my_ullong_var,&my_ullong_var);
+    printf("Type: 'char' valeur: %s / adresse: %p\n",my_char_var,&my_char_var);
+    printf("Type: 'unsigned char' valeur: %hhn / adresse: %p\n",my_uchar_var,&my_uchar_var);
+    printf("Type: 'unsigned short' valeur: %hn / adresse: %p\n",my_short_var,&my_short_var);
+    printf("Type: 'short' valeur: %hn / adresse: %p\n",my_ushort_var,&my_ushort_var);
+    printf("Type: 'int' valeur: %ls / adresse: %p\n",my_int_var,&my_int_var);
+    printf("Type: 'unsigned int' valeur: %ls / adresse: %p\n",my_uint_var,&my_uint_var);
+    printf("Type: 'long int' valeur: %ln / adresse: %p\n",my_long_var,&my_long_var);
+    printf("Type: 'unsigned long int' valeur: %ln / adresse: %p\n",my_ulong_var,&my_ulong_var);
+    printf("Type: 'long long int' valeur: %lln / adresse: %p\n",my_llong_var,&my_llong_var);
+    printf("Type: unsigned long long int' valeur: %lln / adresse: %p\n",my_ullong_var,&my_ullong_var);
     /*
     printf("Type: 'float' valeur: %f / adresse: %p\n",*my_float_var,&my_float_var);
-    /*
     printf("Type: 'double' valeur: %f / adresse: %p\n",my_double_var,&my_double_var);
     printf("Type: 'long double' valeur: %Lg / adresse: %p\n",my_long_double_var,&my_long_double_var);
     */

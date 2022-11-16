@@ -5,6 +5,7 @@
 void sequentielle(int* array, int search) {
     int i = 0;
     int find = 0;
+    //Recherche sur l'ensemble du tableau, ou jusqu'il soit trouvé
     while (i < 100 && find != 1)
     {
         if (array[i] == search)
@@ -19,8 +20,10 @@ void sequentielle(int* array, int search) {
 int main() {
 
     int entier[100];
+    // initiation du seed du random
     srand( time( NULL ) );
 
+    // Input de l'utilisateur
     int search;
     printf("Nombre rechercher: ");
     scanf("%d", &search);

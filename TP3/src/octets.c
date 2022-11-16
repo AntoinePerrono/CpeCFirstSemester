@@ -8,6 +8,7 @@ int main() {
     double my_double_var = 3.14E-12;
     long double my_long_double_var = 3.14E-22;
 
+    // le passage en char permet de se concenter sur un seul octet
     char *my_short_varp = &my_short_var;
     for (int i =0; i < (int) sizeof(my_short_var); i++) {
         printf("%hi, %p\n",*(my_short_varp + i),my_short_varp+i);

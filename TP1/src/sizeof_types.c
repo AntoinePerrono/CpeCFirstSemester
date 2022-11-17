@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : sizeof_types.c - Affichage de la taille de chaque type
+ * 
+*/
+
 int main() {
     printf("La taille du types Signed Char est de %ld octect.\n", sizeof(signed char));
     printf("La taille du types Unsigned Char est de %ld octect.\n", sizeof(unsigned char));

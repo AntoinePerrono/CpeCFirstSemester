@@ -2,6 +2,13 @@
 #define PI 3.14159
 // définition d'une constante PI
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : cercle.c - Calcul de l'aire et du perimetre d'un cercle
+ * 
+*/
+
 // Exercice 1.2
 
 void cercle() {

@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : binaire.c - Conversion binaire
+ * 
+*/
+
 int main(){
 
     int input = 0;

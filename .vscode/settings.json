@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "tri.C": "cpp"
-    }
+        "tri.C": "cpp",
+        "stdio.h": "c"
+    },
+    "cSpell.language": "en,fr-FR,fr"
 }

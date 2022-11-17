@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : boucle.c - Utilisation des boucles
+ * 
+*/
+
 int main() {
     int taille = 0;
     printf("Quelle taille à votre triangle ? ");

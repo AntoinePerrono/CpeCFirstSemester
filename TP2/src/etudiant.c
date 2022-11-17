@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : etudiant.c - Gestion de données avec un tableau 
+ * 
+*/
+
 int main() {
     // Tableau 3D : 5 étudiants, 5 champs de données et des chaine de caractere
     char student[5][5][100] = {

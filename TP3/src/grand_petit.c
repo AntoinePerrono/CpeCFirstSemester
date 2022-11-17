@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : grand_petit.c - Génération aléatoire de nombre et affichage du plus grand et du plus petit.
+ * 
+*/
+
 int main() {
 
     int entier[100];

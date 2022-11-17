@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : conditions.c - Vérification de la divisibilité d'un nombre 
+ * 
+*/
+
 int main() {
     printf("Avec 2, 5 et boucle for: \n");
 

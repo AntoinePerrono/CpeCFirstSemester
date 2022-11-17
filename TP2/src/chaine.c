@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : chaine.c - Création de fonction concaténation, copie, et de calcul de longueur de string.
+ * 
+*/
+
 
 // function qui permet de calculer la taille d'une chaine de caractere
 int string_length(char string[32]) {

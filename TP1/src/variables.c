@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : variables.c - Exemple de valeur pour chaque type
+ * 
+*/
+
 int main() {
     char my_char_var = 'a';
     unsigned char my_uchar_var = 234;

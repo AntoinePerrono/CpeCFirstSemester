@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : ptrvariables.c - Utilisation de pointeur et exemple de valeur pour chaque type
+ * 
+*/
+
 int main() {
 
     char *my_char_var = 'a';

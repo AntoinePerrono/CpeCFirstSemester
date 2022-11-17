@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : operateurs.c - Utilisation des différents opérateur
+ * 
+*/
+
 // Exercice 1.5
 
 int main() {

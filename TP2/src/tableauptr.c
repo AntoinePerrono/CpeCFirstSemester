@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : tableauptr.c - Gestion et calcul à partir des indices d'un tableau
+ * 
+*/
+
 int main() {
 
     // Création des tableaux

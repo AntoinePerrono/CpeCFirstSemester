@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : puissance.c - Calcul de la puissance d'un nombre
+ * 
+*/
+
 int main() {
     int a, b, c;
 

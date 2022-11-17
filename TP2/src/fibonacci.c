@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : fibonacci.c - Calcul de la suite de Fibonacci de façon récursive
+ * 
+*/
+
 // Calcul de fibonacci en récursive 
 
 int fibonacci_rec(int n){

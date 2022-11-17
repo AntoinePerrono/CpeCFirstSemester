@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : tri.c - Implémentation d'un tri à bulle
+ * 
+*/
+
 // Fonction permettant d'interchanger deux variables
 void swap(int* a, int* b)
 {

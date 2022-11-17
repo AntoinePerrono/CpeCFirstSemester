@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-// Auteur : Antoine PERRONO
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : chercher.c - Experimenter une recherche séquentielle.
+ * 
+*/
 
 void sequentielle(int* array, int search) {
     int i = 0;

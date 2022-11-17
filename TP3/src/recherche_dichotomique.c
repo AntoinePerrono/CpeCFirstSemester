@@ -2,8 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : recherche_dichotomique.c - Implémentation d'une recherche dichotomique
+ * 
+*/
+
 // Méthode permettant le recherche dichotomique en récursif
-void binarySearch(int array[100], int begin, int ending, int key) {  
+void recherche_dichotomique(int array[100], int begin, int ending, int key) {  
     int mid;  
     mid = (begin + ending)/2;
     // Si l'entier de fin est plus grand que celui du début de recherche, cela indique que la clé n'a pas été trouvée.
@@ -14,10 +21,10 @@ void binarySearch(int array[100], int begin, int ending, int key) {
             printf("entier présent\n");
         }  
         else if(array[mid] < key) {  
-            binarySearch(array,begin+1,ending,key);  
+            recherche_dichotomique(array,begin+1,ending,key);  
         }  
         else {  
-            binarySearch(array,begin,mid-1,key);  
+            recherche_dichotomique(array,begin,mid-1,key);  
         } 
     }
 }
@@ -67,6 +74,7 @@ int main() {
     // initiation de la seed du random
     srand( time( NULL ) );
 
+    // nombre cherché
     int search;
     printf("Nombre recherché: ");
     scanf("%d", &search);
@@ -78,7 +86,7 @@ int main() {
     }
 
     tri(entier);
-    binarySearch(entier,0,100,search);
+    recherche_dichotomique(entier,0,100,search);
 
     return 0;
 }

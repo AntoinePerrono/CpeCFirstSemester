@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : sizeof.c - Affichage de la taille des types et avec pointeur
+ * 
+*/
+
 int main() {
 
     printf("%li\n", sizeof (int));

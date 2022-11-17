@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : operateurs2.c - Calcul en fonction de l'opérateur
+ * 
+*/
+
 int main() {
     // initialisation de nos variables avec une valeur par défaut.
     int num1 = 0, num2 = 0;

@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : couleurs.c - Utilisation de structure et affichage
+ * 
+*/
+
 int main() {
     
     //Déclaration de la structure color 

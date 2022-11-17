@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : octects.c - Manipulation et affichage de chaque octet liés à un type
+ * 
+*/
+
 int main() {
     short my_short_var = -12;
     int my_int_var = 12;

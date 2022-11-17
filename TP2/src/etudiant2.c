@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : etudiant2.c - Gestion de données avec une structure 
+ * 
+*/
+
 int main() {
 
     // Initialization de la structure étudiant, contenant les différentes données voulu

@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ *  Auteur : Antoine Perrono
+ *
+ *  Fichier : bits.c - Conversion binaire et vérification de bits
+ * 
+*/
+
 int main() {
     int d = 0;
     char d_bin[32];

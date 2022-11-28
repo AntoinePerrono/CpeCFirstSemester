@@ -1,4 +1,5 @@
-#include <stdio.h>
+#ifndef OPERATOR_H
+#define OPERATOR_H
 
 float somme(float a, float b);
 
@@ -15,3 +16,5 @@ float andOperation(float a, float b);
 float orOperation(float a, float b);
 
 int negation(int a);
+
+#endif

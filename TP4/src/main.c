@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "operator.h"
 #include "fichier.h"
 
@@ -62,13 +63,37 @@ int main() {
 
    // Exercice 2
 
+
+    // Lecture du fichier: 
+
+    printf("\n|--- Lecture fichier ---|\n");
+
     char filename[255];
-    printf("Entrez le nom du fichier avec son chemin : ");
+    printf("Entrez le nom du fichier à lire (fichier devant être contenu dans le dossier ressource) : ");
     scanf("%s", &filename);
 
-    lire_fichier(filename);
+    // création du nom du fichier complet
+    char readingPathFile[] = "ressource/";
+    strcat(readingPathFile, filename);
 
-    ecrire_dans_fichier("ressource/ok.txt", "test du soleil levant");
+    // lecture du fichier
+    lire_fichier(readingPathFile);
+
+    printf("\n|--- Ecriture fichier ---|\n");
+
+    printf("Entrez le nom du fichier dans le quel écrire ou à créer (fichier devant être contenu dans le dossier ressource) : ");
+    scanf("%s", &filename);
+
+    // création du nom du fichier complet
+    char writingPathFile[] = "ressource/";
+    strcat(writingPathFile, filename);
+
+    // Récupération du message de l'utilisateur
+    char message[255];
+    printf("Entrez votre message: ");
+    scanf("%s", &message);
+ 
+    ecrire_dans_fichier(writingPathFile, message);
 
     return 0;
 }

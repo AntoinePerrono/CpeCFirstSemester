@@ -6,8 +6,6 @@
 # Références:               
 * https://stackoverflow.com/
 * https://c.developpez.com
-* Elea MACHILLOT 
-
 
 # Difficulté:               
 * les pointeurs 

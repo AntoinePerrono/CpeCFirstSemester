@@ -73,7 +73,7 @@ int main() {
     // distinctColor* colorsD = (distinctColor*) malloc(sizeof(colorsD) * 100 );
     // int nbColorD = 1;
 
-    // recherche des couleurs distincte et stockage
+    // recherche des couleurs distincte dans colors et stockage de chaque occurence colorsDistinct
 
     // for (int i = 0; i < 100; i++)
     // {
